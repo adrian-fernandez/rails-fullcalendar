@@ -1,0 +1,7 @@
+/*
+*= require fullcalendar/core/main
+*= require fullcalendar/bootstrap/main
+*= require fullcalendar/daygrid/main
+*= require fullcalendar/list/main
+*= require fullcalendar/timegrid/main
+*/

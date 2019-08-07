@@ -1,0 +1,13 @@
+//= require moment
+//= require fullcalendar/core/main
+//= require fullcalendar/core/locales/es
+//= require fullcalendar/bootstrap/main
+//= require fullcalendar/daygrid/main
+//= require fullcalendar/google-calendar/main
+//= require fullcalendar/interaction/main
+//= require fullcalendar/list/main
+//= require fullcalendar/luxon/main
+//= require fullcalendar/moment/main
+//= require fullcalendar/moment-timezone/main
+//= require fullcalendar/rrule/main
+//= require fullcalendar/timegrid/main
