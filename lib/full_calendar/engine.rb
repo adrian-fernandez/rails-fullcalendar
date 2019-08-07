@@ -1,4 +1,4 @@
-module Fullcalendar
+module FullCalendar
   class Engine < ::Rails::Engine
     initializer 'fullcalendar.assets.precompile' do |app|
       %w(stylesheets javascripts).each do |sub|

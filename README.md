@@ -18,7 +18,7 @@ gem 'momentjs-rails'
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'rails-fullcalendar'
+gem 'full_calendar'
 ```
 
 And then execute:
@@ -27,17 +27,17 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install rails-fullcalendar
+    $ gem install full_calendar
 
 
 ## Install generator
 
 ### command
 ```ruby
-rails g fullcalendar:install 
+rails g fullcalendar:install
 ```
 
-this generator will: 
+this generator will:
   -  1. append ```//= require calendar ``` add `app/assets/javascripts/application.js`
   -  2. append ```*= require calendar ``` add `app/assets/stylesheets/application.css`
   -  3. create calendar.js  in ```app/assets/javascripts/```
@@ -65,7 +65,7 @@ create new file `app/assets/javascripts/calendar.js`
 
 ```
 
-### Stylesheets 
+### Stylesheets
 Include the stylesheet in your `app/assets/stylesheets/application.css`:
 ```
 *= require calendar
@@ -83,7 +83,7 @@ Create new file `app/assets/stylesheets/calendar.scss`
 @import 'fullcalendar';
 ```
 
-### Initialization 
+### Initialization
 Where needed in your JavaScripts, initialize your fullcalendar:
 
 ```js
@@ -96,7 +96,7 @@ $(document).ready(function() {
 ## Usage
 see fullcalendar documentations [here](https://fullcalendar.io/docs)
 
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).  
-Fullcalendar and Scheduler, which makes up the majority of this gem, has its own, separate licensing  agreement.   
-- Fullcalendar [Read license](https://github.com/fullcalendar/fullcalendar/blob/master/LICENSE.txt)    
-- Scheduler [Read license](https://github.com/fullcalendar/fullcalendar-scheduler/blob/master/LICENSE.md)  
+The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+Fullcalendar and Scheduler, which makes up the majority of this gem, has its own, separate licensing  agreement.
+- Fullcalendar [Read license](https://github.com/fullcalendar/fullcalendar/blob/master/LICENSE.txt)
+- Scheduler [Read license](https://github.com/fullcalendar/fullcalendar-scheduler/blob/master/LICENSE.md)

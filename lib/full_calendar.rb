@@ -1,6 +1,6 @@
-require "fullcalendar/version"
+require "full_calendar/version"
 
-module Fullcalendar
+module FullCalendar
   #thanks to bootstrap-rubygem
   class << self
     # Inspired by Kaminari
@@ -55,7 +55,7 @@ module Fullcalendar
     end
 
     def register_rails_engine
-      require 'fullcalendar/engine'
+      require 'full_calendar/engine'
     end
 
     def register_sprockets
@@ -70,4 +70,4 @@ module Fullcalendar
 
 end
 
-Fullcalendar.load!
+FullCalendar.load!

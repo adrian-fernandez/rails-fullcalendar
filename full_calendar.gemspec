@@ -1,17 +1,17 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "fullcalendar/version"
+require "full_calendar/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "rails-fullcalendar"
-  spec.version       = Fullcalendar::VERSION
+  spec.name          = "full_calendar"
+  spec.version       = FullCalendar::VERSION
   spec.authors       = ["Adrián Fernández"]
   spec.email         = ["adrianfernandez85@gmail.com"]
 
-  spec.summary       = %q{Gemified Fullcalendar, scheduler assets for rails and etc.}
-  spec.description   = %q{Use Fullcalendar, scheduler in asset pipeline with ease}
-  spec.homepage      = "https://github.com/adrian-fernandez/rails-fullcalendar"
+  spec.summary       = %q{Gemified FullCalendar assets for rails and etc.}
+  spec.description   = %q{Use FullCalendar in asset pipeline with ease}
+  spec.homepage      = "https://github.com/adrian-fernandez/full_calendar"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
